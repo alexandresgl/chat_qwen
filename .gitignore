@@ -1,0 +1,27 @@
+# Variáveis de ambiente e segredos (NUNCA subir a API Key)
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Ambientes virtuais Python
+venv/
+.venv/
+env/
+ENV/
+
+# Cache e arquivos compilados do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Builds e empacotamento (caso tenha gerado .exe)
+build/
+dist/
+*.spec
+
+# Configurações de editores e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
